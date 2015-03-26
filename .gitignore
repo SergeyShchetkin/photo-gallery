@@ -1,0 +1,19 @@
+#config file
+dev-server.js
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+
+# OS or Editor folders
+*.sublime-project
+*.sublime-workspace
+.idea
+
+# Folders to ignore
+build/
+dist/
+node_modules/
+vendor/
