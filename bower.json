@@ -1,0 +1,17 @@
+{
+  "name": "React-Gallery",
+  "version": "0.0.1",
+  "homepage": "https://bitbucket.org/cannabiss_60ru/reactjs-photo-gallery",
+  "authors": [
+    "Sergei Shchetkin <mrschetkin@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
