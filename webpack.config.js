@@ -6,11 +6,8 @@ var build_config = require('./build.config');
 
 module.exports = {
 
-  context: path.join(__dirname, build_config.src),
-  entry: {
-    "index": './js/app',
-    "styles": './js/styles'
-  },
+  context: path.join(__dirname, build_config.build_dir),
+  entry: build_config.build_files_js,
   output: {
     path: path.join(__dirname, build_config.compile_dir),
     filename: build_config.js_file

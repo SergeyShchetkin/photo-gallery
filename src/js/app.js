@@ -1,4 +1,3 @@
-var path = require('path');
 var React = require('react');
 //var _ = require('bootstrap');
 var $ = require('jquery');
