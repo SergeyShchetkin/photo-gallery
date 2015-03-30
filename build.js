@@ -6,7 +6,6 @@ var copySettings = require('./copy-settings');
 
 copyFiles(copySettings.html_files);
 copyFiles(copySettings.js_files);
-copyFiles(copySettings.jsx_files);
 copyFiles(copySettings.styles);
 
 var compiler = webpack(config);

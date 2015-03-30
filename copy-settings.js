@@ -15,25 +15,18 @@ module.exports = {
     "source": path.join(__dirname, build_config.src, '/js'),
     "files": [
       'app.js',
-      'styles.js'
+      'styles.js',
+      'toolbar.jsx'
     ],
     "destination": [path.join(__dirname, build_config.build_dir, '/js')]
   },
 
-  jsx_files: {
-    "source": path.join(__dirname, build_config.src, '/jsx'),
-    "files": [
-      'toolbar.jsx'
-    ],
-    "destination": [path.join(__dirname, build_config.build_dir, '/jsx')]
-  },
-
   styles: {
-    "source": path.join(__dirname, build_config.src, '/styles'),
+    "source": path.join(__dirname, build_config.src, '/less'),
     "files": [
       'theme.less'
     ],
-    "destination": [path.join(__dirname, build_config.build_dir, '/styles')]
+    "destination": [path.join(__dirname, build_config.build_dir, '/less')]
   }
 
 };

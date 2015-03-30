@@ -1,7 +1,7 @@
 var React = require('react');
 //var _ = require('bootstrap');
 var $ = require('jquery');
-var Toolbar = require('../jsx/toolbar.jsx');
+var Toolbar = require('./toolbar.jsx');
 
 React.render(
   React.createElement(Toolbar),
